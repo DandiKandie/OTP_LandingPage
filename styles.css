@@ -1,5 +1,22 @@
 * {
    box-sizing: border-box;
    margin: 0;
-
 }
+
+body {
+   background-color: #1b263b;
+   color: #fffcf2;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+   display: flex;
+}
+
+/*
+#1b263b header and footer text
+#e0e1dd secondary text
+#415a77 call to action section and button
+#fffcf2 main text
+#e9d8a6 testimonial background
+*/
