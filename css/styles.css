@@ -180,6 +180,12 @@ h1 {
    border-radius: 10px;
 }
 
+/* footer styles*/
+footer {
+   padding: 50px;
+   text-align: center;
+}
+
 /*
 #1b263b header and footer text
 #e0e1dd secondary text
