@@ -1,6 +1,7 @@
 * {
    box-sizing: border-box;
    margin: 0;
+   padding: 0;
 }
 
 body {
@@ -10,7 +11,8 @@ body {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-img {
+img,
+.hero-image {
    width: 450px;
    height: 300px;
 }
@@ -37,10 +39,9 @@ img {
 }
 
 .nav-links {
-
    display: flex;
    flex-direction: row;
-   gap: 1.5rem;
+   gap: 30px;
 }
 
 .nav-link {
@@ -59,7 +60,7 @@ img {
    justify-content: space-evenly;
    align-items: center;
    align-content: space-between;
-   gap: 2rem;
+   gap: 50px;
    margin: 100px;
 }
 
@@ -73,8 +74,8 @@ img {
 
 .header-btn {
    border-radius: 10px;
-   padding: 0.7rem 3rem;
-   margin-top: 1.5rem;
+   padding: 10px 20px;
+   margin-top: 30px;
    flex-shrink: 2;
 }
 
@@ -95,25 +96,29 @@ img {
 }
 
 .services-content {
-   padding: 5px;
+   width: 50%;
+   margin: auto;
    display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
-   align-items: center;
-   align-content: space-around;
-   gap: 8rem;
+   flex-wrap: wrap;
+   gap: 10px;
+   flex-direction: row;
+   justify-content: space-between;
 }
 
-.services-content>div>p {
-   max-width: max-content;
-   flex: 1 2 100px;
+.service-content {
+   width: min-content;
 }
 
-.services-content>div>img {
-   display: block;
+.service-image {
    border: 5px solid #415a77;
    border-radius: 10px;
-   width: 150px;
+   width: 200px;
+   height: 150px;
+}
+
+.service-img {
+   display: block;
+   width: 200px;
    height: auto;
 }
 
